@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MADARA's world </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background effects -->
+    <div class="background">
+        <div class="grid"></div>
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <main class="container">
+
+        <!-- Profile -->
+        <section class="profile">
+
+            <div class="avatar-container">
+                <div class="avatar-ring">
+                    <img src="images/madara.png" alt="Profile Picture">
+                </div>
+
+                <div class="online-dot"></div>
+            </div>
+
+            <h1>FOUAD</h1>
+
+            <p class="username">@fouad</p>
+
+            <p class="bio">
+                🎮 Gamer • PC Enthusiast • Tech
+                <br>
+                ⚡ Welcome to my digital world
+            </p>
+
+            <!-- Social icons -->
+            <div class="socials">
+
+                <a href="#" aria-label="Discord">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+
+                <a href="#" aria-label="Twitch">
+                    <i class="fa-brands fa-twitch"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="#" aria-label="Steam">
+                    <i class="fa-brands fa-steam"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Links -->
+        <section class="links">
+
+            <a href="https://discord.gg/zTp7TUGJc" class="link-card">
+                <div class="link-icon">
+                    <i class="fa-brands fa-discord"></i>
+                </div>
+
+                <div class="link-text">
+                    <strong>Join My Discord</strong>
+                    <span>Come hang out & play</span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </a>
+
+
+           <!-- <a href="#" class="link-card">
+                <div class="link-icon">
+                    <i class="fa-brands fa-twitch"></i>
+                </div>
+
+                <div class="link-text">
+                    <strong>Watch Me Live</strong>
+                    <span>Live streams & gaming</span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </a>
+-->
+
+           <!-- <a href="#" class="link-card">
+                <div class="link-icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+
+                <div class="link-text">
+                    <strong>YouTube</strong>
+                    <span>Gaming videos & highlights</span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </a>
+        -->
+
+            <a href="#" class="link-card">
+                <div class="link-icon">
+                    <i class="fa-brands fa-steam"></i>
+                </div>
+
+                <div class="link-text">
+                    <strong>Steam Profile</strong>
+                    <span>Check out my games</span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </a>
+
+
+           <!--  <a href="#" class="link-card">
+                <div class="link-icon">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+
+                <div class="link-text">
+                    <strong>My Setup</strong>
+                    <span>PC specs & gaming setup</span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </a>
+        -->
+
+            <a href="#" class="link-card featured">
+
+                <div class="featured-badge">
+                    NEW
+                </div>
+
+                <div class="link-icon">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+
+                <div class="link-text">
+                    <strong>Latest Project</strong>
+                    <span>Check out what I'm working on</span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right arrow"></i>
+
+            </a>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                ONLINE
+            </div>
+
+            <p>
+                SYSTEM ONLINE // © 2026 FOUAD
+            </p>
+
+        </footer>
+
+    </main>
+<div class="custom-cursor">&lt;&gt;</div>
+
+<script>
+    const cursor = document.querySelector(".custom-cursor");
+
+    document.addEventListener("mousemove", (e) => {
+        cursor.style.left = e.clientX + "px";
+        cursor.style.top = e.clientY + "px";
+    });
+</script>
+
+</body>
+</html>
